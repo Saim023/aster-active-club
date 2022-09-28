@@ -1,5 +1,5 @@
 .header {
-	background-color: #2b365e;
+	background-color: #0f0c3c;
 	height: 70px;
 	padding-left: 65px;
 	display: flex;
@@ -7,11 +7,11 @@
 }
 .header a {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 	font-size: 28px;
 }
 .icon {
 	font-size: 28px;
-	color: white;
+	color: orange;
 	margin-right: 10px;
 }

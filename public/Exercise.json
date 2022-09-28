@@ -1,0 +1,74 @@
+[
+	{
+		"id": "1",
+		"title": "Low Dumbbell",
+		"description": "Active assistive exercise voluntary contraction of muscles controlling a part, assisted by a therapist or by some other means.",
+		"age": "25-35",
+		"time": 10,
+		"img": "../images/alonso-reyes-0HlI76m4jxU-unsplash.jpg"
+	},
+	{
+		"id": "2",
+		"title": "Jogue Spin",
+		"description": "A disorder characterized by loss of calcium in the bone, leading to thinning of the bones. It occurs frequently in postmenopausal women.",
+		"age": "35-40",
+		"time": 30,
+		"img": "../images/anupam-mahapatra-Vz0RbclzG_w-unsplash.jpg"
+	},
+	{
+		"id": "3",
+		"title": "Push Up",
+		"description": "Aerobic exercise a type of physical activity that increases the heart rate and promotes increased use of oxygen in order to improve the overall body condition.",
+		"age": "20-30",
+		"time": 25,
+		"img": "../images/boxed-water-is-better-P4AIjQw1BuY-unsplash.jpg"
+	},
+	{
+		"id": "4",
+		"title": "Strait Dumbbell",
+		"description": "Cardiovascular exercise exercises to promote improved capacity of the cardiovascular system. They must be administered at least twice weekly, with most programs conducted three to five or more times weekly.",
+		"age": "22-25",
+		"time": 25,
+		"img": "../images/dollar-gill-QoW2Sdlh9Nk-unsplash.jpg"
+	},
+	{
+		"id": "5",
+		"title": "Foot Push Up",
+		"description": "Endurance exercise any exercise that involves the use of several large groups of muscles and is thus dependent on the delivery of oxygen to the muscles by the cardiovascular system;",
+		"age": "25-30",
+		"time": 25,
+		"img": "../images/gabin-vallet-qq_wRiGXf7o-unsplash.jpg"
+	},
+	{
+		"id": "6",
+		"title": "Back Push Up",
+		"description": "Isometric exercise active exercise performed against stable resistance, without change in the length of the muscle.",
+		"age": "20-25",
+		"time": 25,
+		"img": "../images/kate-trysh-3cCe37VGDiQ-unsplash.jpg"
+	},
+	{
+		"id": "7",
+		"title": "Back Rythm",
+		"description": "McKenzie exercise an exercise regimen used in the treatment of low back pain and sciatica, prescribed according to findings during mechanical examination of the lumbar.",
+		"age": "20-25",
+		"time": 35,
+		"img": "../images/kike-vega-F2qh3yjz6Jk-unsplash.jpg"
+	},
+	{
+		"id": "8",
+		"title": "Back Muscle",
+		"description": "Muscle-setting exercise voluntary contraction and relaxation of skeletal muscles without changing the muscle length or moving the associated part of the body. Called also static exercise.",
+		"age": "20-30",
+		"time": 20,
+		"img": "../images/rohit-reddy-T0XI8VthDiY-unsplash.jpg"
+	},
+	{
+		"id": "9",
+		"title": "High Dumbbell",
+		"description": "Passive exercise motion imparted to a segment of the body by another individual, machine, or other outside force, or produced by voluntary effort of another segment of the patient's own body.",
+		"age": "30-35",
+		"time": 10,
+		"img": "../images/sam-sabourin-PiFA6HIAfBA-unsplash.jpg"
+	}
+]

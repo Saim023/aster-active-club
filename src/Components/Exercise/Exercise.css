@@ -1,0 +1,13 @@
+.exercise-wrapper {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
+.exercise-container h2 {
+	text-align: center;
+}
+.exercise-details {
+	background-color: #d8edff;
+}
+.exercise-details h2 {
+	text-align: center;
+}
