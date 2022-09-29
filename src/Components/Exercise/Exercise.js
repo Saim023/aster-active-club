@@ -4,9 +4,13 @@ import { faDumbbell, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import ExerciseDetails from '../Exercise-details/ExerciseDetails';
 import saim from '../../images/Saim.jpeg'
 import './Exercise.css';
+import Time from '../Time/Time';
 
 const Exercise = () => {
     const [items, setItems] = useState([]);
+    const [time, setTime] = useState([]);
+    const [breakTime, setBreakTime] = useState([]);
+
 
     useEffect(() => {
         fetch('Exercise.json')
@@ -14,8 +18,17 @@ const Exercise = () => {
             .then(data => setItems(data))
     }, []);
 
-    const handleAddBtn = () => {
-        console.log('clicked')
+    const handleAddBtn = (item) => {
+        const newTime = [...time, item];
+        setTime(newTime);
+
+    }
+
+    const handleBreakTimeBtn = (e) => {
+        const newBreakTime = [e.target.innerText]
+
+        console.log(newBreakTime);
+
     }
 
     return (
@@ -55,22 +68,14 @@ const Exercise = () => {
                     <div>
                         <h2>Add A Break</h2>
                         <div className='break-btn-container'>
-                            <button>10s</button>
+                            <button onClick={() => handleBreakTimeBtn()}>10s</button>
                             <button>20s</button>
                             <button>30s</button>
                             <button>40s</button>
                             <button>50s</button>
                         </div>
                     </div>
-                    <h2>Exercise Details</h2>
-                    <div className='exercise-time'>
-                        <h4>Exercise Time: </h4>
-                        <p>0<span>s</span></p>
-                    </div>
-                    <div className='break-time'>
-                        <h4>Break Time: </h4>
-                        <p>0<span>s</span></p>
-                    </div>
+                    <Time time={time}></Time>
                 </div>
 
             </div>

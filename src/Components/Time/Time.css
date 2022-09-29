@@ -1,0 +1,19 @@
+.activity-btn {
+	margin-top: 60px;
+	text-align: center;
+}
+.activity-btn a {
+	text-decoration: none;
+	background-color: orange;
+	color: black;
+	padding: 10px 20px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.activity-btn a:hover {
+	background-color: orangered;
+	color: white;
+}
