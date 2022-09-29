@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ExerciseDetails from '../Exercise-details/ExerciseDetails';
 import './Exercise.css';
 
 const Exercise = () => {
@@ -10,12 +11,21 @@ const Exercise = () => {
             .then(data => setItems(data))
     }, []);
 
+    const handleAddBtn = () => {
+        console.log('clicked')
+    }
+
     return (
         <div className='exercise-wrapper '>
             <div className="exercise-container">
                 <h2>Select Your Exercise</h2>
-                <div>
-                    <h2>Total Items:{items.length}</h2>
+                <div className='items-wrapper'>
+                    {
+                        items.map(item => <ExerciseDetails key={item.id}
+                            item={item}
+                            handleAddBtn={handleAddBtn}
+                        ></ExerciseDetails>)
+                    }
                 </div>
             </div>
             <div className="exercise-details">

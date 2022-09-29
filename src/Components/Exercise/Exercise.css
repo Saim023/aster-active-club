@@ -7,7 +7,19 @@
 }
 .exercise-details {
 	background-color: #d8edff;
+	position: sticky;
+	top: 0px;
 }
 .exercise-details h2 {
 	text-align: center;
+}
+.items-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	align-items: center;
+	gap: 55px;
+	margin-right: 55px;
+	margin-left: 55px;
+	margin-top: 55px;
 }
