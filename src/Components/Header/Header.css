@@ -15,3 +15,8 @@
 	color: orange;
 	margin-right: 10px;
 }
+@media screen and (max-width: 700px) {
+	.header {
+		width: 700px;
+	}
+}
