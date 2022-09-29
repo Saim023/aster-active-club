@@ -1,8 +1,8 @@
 .activity-btn {
-	margin-top: 60px;
+	margin-top: 40px;
 	text-align: center;
 }
-.activity-btn a {
+.activity-btn button {
 	text-decoration: none;
 	background-color: orange;
 	color: black;
@@ -13,7 +13,7 @@
 	-ms-border-radius: 8px;
 	-o-border-radius: 8px;
 }
-.activity-btn a:hover {
+.activity-btn button:hover {
 	background-color: orangered;
 	color: white;
 }

@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Exercise from './Components/Exercise/Exercise';
 import Header from './Components/Header/Header';
@@ -7,6 +8,9 @@ function App() {
     <div>
       <Header></Header>
       <Exercise></Exercise>
+      <div>
+        <h2>Question: </h2>
+      </div>
     </div>
   );
 }
