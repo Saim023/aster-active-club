@@ -14,6 +14,8 @@
 }
 .exercise-details h2 {
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .items-wrapper {
 	display: grid;
@@ -83,4 +85,29 @@
 .details-container {
 	position: sticky;
 	top: 0;
+}
+.exercise-time {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #c0def9;
+	padding: 1px 10px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.break-time {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #c0def9;
+	margin-top: 20px;
+	padding: 1px 10px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
 }
