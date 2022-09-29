@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Time.css';
 
-const Time = ({ time }) => {
+const Time = ({ time, breakTime }) => {
 
     const notify = () => toast("Congratulations!! You Have Done Your Activity.")
 
@@ -24,7 +24,7 @@ const Time = ({ time }) => {
             </div>
             <div className='break-time'>
                 <h4>Break Time: </h4>
-                <p>{ }</p>
+                <p>{breakTime}</p>
             </div>
             <div className='activity-btn'>
                 <button onClick={notify}>Activity Completed</button>

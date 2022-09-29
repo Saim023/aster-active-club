@@ -25,9 +25,10 @@ const Exercise = () => {
     }
 
     const handleBreakTimeBtn = (e) => {
-        const newBreakTime = [e.target.innerText]
-
-        console.log(newBreakTime);
+        const getValue = e.target.innerText;
+        setBreakTime(getValue)
+        console.log(breakTime)
+        // console.log(getValue);
 
     }
 
@@ -68,14 +69,16 @@ const Exercise = () => {
                     <div>
                         <h2>Add A Break</h2>
                         <div className='break-btn-container'>
-                            <button onClick={() => handleBreakTimeBtn()}>10s</button>
-                            <button>20s</button>
-                            <button>30s</button>
-                            <button>40s</button>
-                            <button>50s</button>
+                            <button onClick={handleBreakTimeBtn}>10s</button>
+                            <button onClick={handleBreakTimeBtn}>20s</button>
+                            <button onClick={handleBreakTimeBtn}>30s</button>
+                            <button onClick={handleBreakTimeBtn}>40s</button>
+                            <button onClick={handleBreakTimeBtn}>50s</button>
                         </div>
                     </div>
-                    <Time time={time}></Time>
+                    <Time time={time}
+                        breakTime={breakTime}
+                    ></Time>
                 </div>
 
             </div>
